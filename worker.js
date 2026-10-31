@@ -1,4 +1,3 @@
-// Step 2 test: only checks that the D1 database is connected. App itself is unchanged.
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
